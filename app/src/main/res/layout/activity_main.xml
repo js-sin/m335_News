@@ -38,7 +38,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/idRVCategories"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal"
+        android:layout_below="@id/idToolbar"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idRVCategories"
+        android:id="@+id/idRVNews"
+        android:layout_marginTop="5dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/idPBLoading"
+        android:visibility="gone"/>
 
 
 </RelativeLayout>
