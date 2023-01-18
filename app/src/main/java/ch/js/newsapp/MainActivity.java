@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+//32min
 public class MainActivity extends AppCompatActivity {
 
     //11791c6ab1cf4a90be29a21e2bb5906f

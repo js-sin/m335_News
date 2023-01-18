@@ -8,6 +8,15 @@ public class Articles {
     private String url;
     private String content;
 
+    public Articles(String title, String description, String urlToImage, String url, String content) {
+        this.title = title;
+        this.description = description;
+        this.urlToImage = urlToImage;
+        this.url = url;
+        this.content = content;
+    }
+
+
     public String getTitle() {
         return title;
     }
@@ -48,13 +57,6 @@ public class Articles {
         this.content = content;
     }
 
-    public Articles(String title, String description, String urlToImage, String url, String content) {
-        this.title = title;
-        this.description = description;
-        this.urlToImage = urlToImage;
-        this.url = url;
-        this.content = content;
-    }
 
 
 }
