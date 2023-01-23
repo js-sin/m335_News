@@ -24,4 +24,8 @@ public class CategoryRVModal {
         this.categoryString = categoryString;
         this.categoryImageUrl = categoryImageUrl;
     }
+
+    public String getCategory() {
+        return null;
+    }
 }
