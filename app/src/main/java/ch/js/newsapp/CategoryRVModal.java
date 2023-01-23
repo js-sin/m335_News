@@ -4,6 +4,11 @@ public class CategoryRVModal {
     private String categoryString;
     private String categoryImageUrl;
 
+    public CategoryRVModal(String categoryString, String categoryImageUrl) {
+        this.categoryString = categoryString;
+        this.categoryImageUrl = categoryImageUrl;
+    }
+
     public String getCategoryString() {
         return categoryString;
     }
@@ -20,12 +25,11 @@ public class CategoryRVModal {
         this.categoryImageUrl = categoryImageUrl;
     }
 
-    public CategoryRVModal(String categoryString, String categoryImageUrl) {
-        this.categoryString = categoryString;
-        this.categoryImageUrl = categoryImageUrl;
-    }
 
     public String getCategory() {
         return null;
     }
 }
+
+
+

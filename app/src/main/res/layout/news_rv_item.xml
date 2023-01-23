@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="8dp"
     app:cardCornerRadius="4dp"
-    app:cardBackgroundColor="@color/grey"
+    app:cardBackgroundColor="@color/black_shade1"
     android:layout_height="wrap_content">
 
     <RelativeLayout
